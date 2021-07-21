@@ -1,0 +1,29 @@
+{
+  "name": "netrunr-discovery-mdns",
+  "version": "1.0.0",
+  "description": "Netrunr gateway discovery tool using mDNS",
+  "main": "netrunr-discovery.js",
+  "bin": "netrunr-discovery.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiomware/netrunr-discovery-mdns.git"
+  },
+  "keywords": [
+    "Netrunr",
+    "mDNS",
+    "Bluetooth",
+    "IoT"
+  ],
+  "author": "Axiomware Systems, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axiomware/netrunr-discovery-mdns/issues"
+  },
+  "homepage": "https://github.com/axiomware/netrunr-discovery-mdns#readme",
+  "dependencies": {
+    "node-dns-sd": "^0.4.2"
+  }
+}
